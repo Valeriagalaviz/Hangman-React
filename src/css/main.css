@@ -1,0 +1,148 @@
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2544; 
+  }
+  
+  .wrapper {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 3px solid #7C93C3;
+    border-radius: 10px;
+    background-color: #474F7A;
+    margin-bottom: 40px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    padding: 20px 30px;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 48px;
+    color: #C3FF93; 
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 26px;
+    color: #FEFBF6; 
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
+  input{
+    background-color: #EEEEEE;
+    border: 2px solid #5AB2FF; 
+    font-size: 20px;
+    margin-right: 20px;
+    color: #000;
+  }
+
+  .hint {
+    display: inline-block;
+    border: 2px solid #A0DEFF;
+    background-color: #CAF4FF;
+    margin-bottom: 20px;
+    padding: 10px 10px;
+    font-weight: bold;
+    color: #000;
+    padding: 10px 10px;
+    margin-right: 40px;
+  }
+
+  .imagen{
+    border-radius: 10px;
+  }
+
+  .start{
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    background-color: #D2DE32;
+    border: 2px solid #EFF396; 
+    color: #000;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+  }
+
+  .start:hover {
+    font-size: 17px;
+    font-weight: bold; 
+    background-color: #DFE679;
+    border: 2px solid #F2F7A1; 
+    font-family:Arial, Helvetica, sans-serif;
+  }
+
+  .elements{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  #errores{
+    text-align: center;
+    font-size: 16px;
+    color: #FEFBF6; 
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
+  .Scoreboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  table {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .timer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh; 
+  }
+  
+  .timer{
+    border: 5px solid #7071E8;
+    color: #7071E8;
+    width: 140px;
+    background-color: #B4BDFF;
+    height: 140px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  #scoreboard{
+    font-size: 24px;
+    font-weight: bold;
+    color: #C3FF93;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+  }
+
+  #win{
+    background-color: #14C38E;
+    border: 2px solid #00FFAB;
+  }
+
+  #lose{
+    background-color: #E72929;
+    border: 2px solid #FA7070;
+  }
+
+  td{
+    background-color: #DDDDDD;
+    border: 2px solid #EEEEEE;
+    font-weight: bold;
+    color: #000;
+  }
