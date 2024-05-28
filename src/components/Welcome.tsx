@@ -14,8 +14,8 @@ interface WelcomeProps {
             case 'fruits':
                 hint = 'Fruits';
                 break;
-            case 'colours':
-                hint = 'Colours';
+            case 'colors':
+                hint = 'Colors';
                 break;
             case 'animals':
                 hint = 'Animals';
