@@ -6,7 +6,7 @@ interface WelcomeProps {
     type: string;
   }
   
-  export default function Welcome({ words, type }: WelcomeProps) {
+  export default function Welcome({ type }: WelcomeProps) {
     
     const topicHint = (type: string) => {
         let hint = '';
